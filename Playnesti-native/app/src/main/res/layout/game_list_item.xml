@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/game_image_width"
+        android:layout_height="@dimen/game_image_height"
+        />
+
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo do jogo"
+        style="?android:textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/game_platform"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plataforma"
+        />
+
+    <TextView
+        android:id="@+id/game_players"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogadores"
+        />
+
+    <TextView
+        android:id="@+id/game_price"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço"
+        />
+
+</LinearLayout>

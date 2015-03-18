@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Playnesti</string>
+
+    <string name="title_section_schedule">Programa</string>
+    <string name="title_section_activities">Actividades</string>
+    <string name="title_section_lan_party">Lan Party</string>
+    <string name="title_section_galleries">Galerias</string>
+    <string name="title_section_contacts">Contactos</string>
+    <string name="title_section_about">Sobre</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="text_about">Este programa foi desenvolvido para o Workshop Tecnológico sobre Desenvolvimento Mobile para o Playnesti 2015.</string>
+    <string name="text_contacts">Contacts</string>
+    <string name="text_galleries">Galleries</string>
+    <string name="text_lan_party">Lan Party</string>
+    <string name="text_schedule">Schedule</string>
+
+    <string name="text_developed_by">Desenvolvido por:</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="contact_email">nesti@uac.pt</string>
+    <string name="contact_facebook">facebook.com/playnesti</string>
+    <string name="contact_location">Localização / Direções</string>
+
+</resources>

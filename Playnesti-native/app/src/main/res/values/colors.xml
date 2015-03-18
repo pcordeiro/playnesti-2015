@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="playnesti_main_color">#4978bc</color>
+
+    <color name="indicator_background">#45000000</color>
+    <color name="default_circle_indicator_page_color">#70000000</color>
+    <color name="default_circle_indicator_fill_color">#70ffffff</color>
+    <color name="default_circle_indicator_stroke_color">#d4d4d4</color>
+
+</resources>
