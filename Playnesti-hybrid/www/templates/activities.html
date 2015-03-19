@@ -1,0 +1,16 @@
+<ion-view view-title="Actividades">
+    <ion-content class="activities">
+        <div class="list">
+            <div ng-repeat="activity in activities">
+                <div class="item item-thumbnail-left" >
+                    <img src="{{activity.thumbnailSrc}}">
+                    <div class="right">
+                    <h2>{{activity.title}}</h2>
+                    <h4>{{activity.subtitle}}</h4>
+                    <p>{{activity.schedule}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

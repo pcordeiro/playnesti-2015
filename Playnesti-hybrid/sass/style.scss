@@ -1,0 +1,147 @@
+/* CSS */
+
+.nav-bar-block{
+    .bar-stable{
+        background-color: #4b75b8;
+        height: 54px;
+        padding: 7px;
+        .title{
+            color: white;
+            padding-top: 2px;
+        }
+        .button{
+            color: white;
+            padding: 0 10px 0 10px;
+        }
+        .selectProgram{
+            height: 50px;
+            width: 130px;
+            .item-select{
+                height: 50px;
+            }
+            select{
+                background-color: transparent;
+                color: white;
+                font-size: 17px;
+                font-weight: 500;
+                padding: 11px 0px 16px 0px;
+                left: 0;
+                option{
+                    background-color: white;
+                    color: #666;
+                }
+            }
+        }
+
+    }
+
+}
+
+.drawer-menu,
+.menu{
+    .bar-stable{
+        background-color: #4b75b8;
+        color: white;
+    }
+        .logo-playnesti{
+            text-align: center;
+            height: 200px;
+            padding-top: 45px;
+            width: 100%;
+            background-color: #4b75b8 !important;
+        }
+        .list {
+            .item-complex{
+                border: none;
+
+                .item-content{
+                    color: #747474;
+                    .menu-icons{
+                        padding-right: 15px;
+                    }
+                    &.activated{
+                        background-color: #84d1ed;
+                    }
+                }
+                &.active{
+                    background-color: #84d1ed !important;
+                    border: none;
+                    a{
+                        background-color: #84d1ed !important;
+                    }
+                }
+            }
+        }
+
+}
+.has-header{
+    top: 54px;
+}
+
+.menu-content{
+    border: none !important;
+    box-shadow: 3px 5px 5px 5px rgba(50, 50, 50, 0.49) !important;
+}
+
+.item-thumbnail-left > img{
+    left: 3px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+}
+
+.activities{
+    .item{
+        .right{
+            margin-top: 10px;
+        }
+    }
+}
+
+.lan_party{
+    .item{
+        text-align: center;
+        .logo img{
+            width: 80%;
+        }
+    }
+}
+
+.contacts{
+    text-align: center;
+    a{
+        display: block;
+        .info{
+            margin-top: 50px;
+            img{
+                width: 40px;
+            }
+            .label{
+                font-size: 1.5em;
+            }
+        }
+    }
+}
+
+.about{
+    text-align: center;
+    padding-top: 30px;
+    color: #666666;
+    font-size: 15px;
+    img{
+        width: 80%;
+        &.gravatar{
+            width: 70px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        text-align: left;
+        padding: 5% 5% 0 5%;
+    }
+}
+
+.gallery{
+    img{
+        width: 100%;
+    }
+}

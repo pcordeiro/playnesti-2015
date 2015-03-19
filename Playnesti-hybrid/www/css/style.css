@@ -1,0 +1,166 @@
+/* CSS */
+/* line 4, ../../sass/style.scss */
+.nav-bar-block .bar-stable {
+  background-color: #4b75b8;
+  height: 54px;
+  padding: 7px;
+}
+/* line 8, ../../sass/style.scss */
+.nav-bar-block .bar-stable .title {
+  color: white;
+  padding-top: 2px;
+}
+/* line 12, ../../sass/style.scss */
+.nav-bar-block .bar-stable .button {
+  color: white;
+  padding: 0 10px 0 10px;
+}
+/* line 16, ../../sass/style.scss */
+.nav-bar-block .bar-stable .selectProgram {
+  height: 50px;
+  width: 130px;
+}
+/* line 19, ../../sass/style.scss */
+.nav-bar-block .bar-stable .selectProgram .item-select {
+  height: 50px;
+}
+/* line 22, ../../sass/style.scss */
+.nav-bar-block .bar-stable .selectProgram select {
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 11px 0px 16px 0px;
+  left: 0;
+}
+/* line 29, ../../sass/style.scss */
+.nav-bar-block .bar-stable .selectProgram select option {
+  background-color: white;
+  color: #666;
+}
+
+/* line 42, ../../sass/style.scss */
+.drawer-menu .bar-stable,
+.menu .bar-stable {
+  background-color: #4b75b8;
+  color: white;
+}
+/* line 46, ../../sass/style.scss */
+.drawer-menu .logo-playnesti,
+.menu .logo-playnesti {
+  text-align: center;
+  height: 200px;
+  padding-top: 45px;
+  width: 100%;
+  background-color: #4b75b8 !important;
+}
+/* line 54, ../../sass/style.scss */
+.drawer-menu .list .item-complex,
+.menu .list .item-complex {
+  border: none;
+}
+/* line 57, ../../sass/style.scss */
+.drawer-menu .list .item-complex .item-content,
+.menu .list .item-complex .item-content {
+  color: #747474;
+}
+/* line 59, ../../sass/style.scss */
+.drawer-menu .list .item-complex .item-content .menu-icons,
+.menu .list .item-complex .item-content .menu-icons {
+  padding-right: 15px;
+}
+/* line 62, ../../sass/style.scss */
+.drawer-menu .list .item-complex .item-content.activated,
+.menu .list .item-complex .item-content.activated {
+  background-color: #84d1ed;
+}
+/* line 66, ../../sass/style.scss */
+.drawer-menu .list .item-complex.active,
+.menu .list .item-complex.active {
+  background-color: #84d1ed !important;
+  border: none;
+}
+/* line 69, ../../sass/style.scss */
+.drawer-menu .list .item-complex.active a,
+.menu .list .item-complex.active a {
+  background-color: #84d1ed !important;
+}
+
+/* line 77, ../../sass/style.scss */
+.has-header {
+  top: 54px;
+}
+
+/* line 81, ../../sass/style.scss */
+.menu-content {
+  border: none !important;
+  box-shadow: 3px 5px 5px 5px rgba(50, 50, 50, 0.49) !important;
+}
+
+/* line 86, ../../sass/style.scss */
+.item-thumbnail-left > img {
+  left: 3px !important;
+  max-width: 100px !important;
+  max-height: 100px !important;
+}
+
+/* line 94, ../../sass/style.scss */
+.activities .item .right {
+  margin-top: 10px;
+}
+
+/* line 101, ../../sass/style.scss */
+.lan_party .item {
+  text-align: center;
+}
+/* line 103, ../../sass/style.scss */
+.lan_party .item .logo img {
+  width: 80%;
+}
+
+/* line 109, ../../sass/style.scss */
+.contacts {
+  text-align: center;
+}
+/* line 111, ../../sass/style.scss */
+.contacts a {
+  display: block;
+}
+/* line 113, ../../sass/style.scss */
+.contacts a .info {
+  margin-top: 50px;
+}
+/* line 115, ../../sass/style.scss */
+.contacts a .info img {
+  width: 40px;
+}
+/* line 118, ../../sass/style.scss */
+.contacts a .info .label {
+  font-size: 1.5em;
+}
+
+/* line 125, ../../sass/style.scss */
+.about {
+  text-align: center;
+  padding-top: 30px;
+  color: #666666;
+}
+/* line 129, ../../sass/style.scss */
+.about img {
+  width: 80%;
+}
+/* line 131, ../../sass/style.scss */
+.about img.gravatar {
+  width: 70px;
+  border-radius: 50%;
+}
+/* line 136, ../../sass/style.scss */
+.about p {
+  text-align: left;
+  padding: 5% 5% 0 5%;
+}
+
+/* line 143, ../../sass/style.scss */
+.gallery img {
+  width: 100%;
+}

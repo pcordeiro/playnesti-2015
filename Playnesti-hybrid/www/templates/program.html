@@ -1,0 +1,28 @@
+
+<ion-view>
+    <ion-nav-title>
+        <label class='selectProgram item-input item-select'>
+            <select ng-model="programSelected"
+                    ng-change="update(programSelected)"
+                    ng-options="opt as opt.filter for opt in filterProgram track by opt.value" >
+            </select>
+        </label>
+    </ion-nav-title>
+    <ion-content overflow-scroll="true" class="program-content">
+        <div class="list">
+            <div class="programs" ng-repeat="program in programs">
+                <div ng-if="program.divider" class="item item-divider">
+                    {{program.label}}
+                </div>
+                <div ng-if="!program.divider" class="item item-thumbnail-left" >
+                    <img src="{{program.thumbnailSrc}}">
+                    <h2>{{program.title}}</h2>
+                    <h4>{{program.subTitle}}</h4>
+                    <p>{{program.schedule}}</p>
+                    <p>{{program.location}}</p>
+                    <p>{{program.speaker}}</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

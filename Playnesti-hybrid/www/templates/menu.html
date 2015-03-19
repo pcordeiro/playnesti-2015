@@ -1,0 +1,42 @@
+<ion-side-menus enable-menu-with-back-views="false">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+                </button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+
+    <ion-side-menu side="left">
+        <ion-content scroll="false">
+            <div class="logo-playnesti">
+                <img src="img/logo_playnesti.png" width="90%">
+            </div>
+            <ion-list>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/program')" href="#/app/program">
+                    <i class="menu-icons md-schedule md-lg"></i>Programa
+                </ion-item>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/activities')" href="#/app/activities">
+                    <i class="menu-icons md-keyboard md-lg"></i>Actividades
+                </ion-item>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/lan-party')" href="#/app/lan-party">
+                    <i class="menu-icons md-gamepad md-lg"></i>Lan Party
+                </ion-item>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/gallery')" href="#/app/gallery">
+                    <i class="menu-icons md-now-wallpaper md-lg"></i>Galerias
+                </ion-item>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/contacts')" href="#/app/contacts">
+                    <i class="menu-icons md-mail md-lg"></i>Contactos
+                </ion-item>
+                <ion-item nav-clear menu-close ng-class="getClass('/app/about')" href="#/app/about">
+                    <i class="menu-icons md-info-outline md-lg"></i>Sobre
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

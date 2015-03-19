@@ -1,0 +1,11 @@
+<ion-view view-title="Galeria">
+    <ion-content overflow-scroll="true" class="gallery">
+        <div class="list">
+            <div class="photos" ng-repeat="photo in gallery">
+                <div class="item">
+                    <img src="{{photo.imageSrc}}">
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
